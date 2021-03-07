@@ -18,3 +18,14 @@ section {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
+.siderbar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
