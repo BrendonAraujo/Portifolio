@@ -18,6 +18,7 @@ section {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
-#sideNav .bg-primary{
-    background-color: #4a000c!important;
+
+#sideNav .navbar-toggler:focus {
+    outline-color: #4a000c;
 }
