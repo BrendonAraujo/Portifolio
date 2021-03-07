@@ -19,5 +19,5 @@ section {
     margin-right: 1rem;
 }
 #sideNav .bg-primary {
-    outline-color: #4a000c;
+    outline-color: #4a000c !important;
 }
