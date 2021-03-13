@@ -2,7 +2,7 @@ body {
     font-family: 'Laje Josefin';
     padding-top: 54px;
     color: #868e96;
-  }
+}
 section {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
@@ -13,7 +13,7 @@ section {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #495057;
+    background-color: #212121;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
@@ -21,17 +21,64 @@ section {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
-.sidebar {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(34, 0, 0);
-    overflow-x: hidden;
-    padding-top: 20px;
+@media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+      background-color: #212121;
+    }
+    #sideNav .navbar-brand {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 9rem;
+      max-height: 9rem;
+    }
+    #sideNav .navbar-collapse {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
 }
-.sutitle{
-    font-size: 1.5rem;
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
 }
