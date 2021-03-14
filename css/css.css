@@ -1,7 +1,13 @@
 body {
     font-family: 'Laje Josefin';
     padding-top: 54px;
-    color: #868e96;
+    color: #707070;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
 }
 section {
     padding-top: 5rem !important;
@@ -21,6 +27,7 @@ section {
     line-height: 3.5rem;
     margin-right: 1rem;
 }
+
 @media (min-width: 992px) {
     #sideNav {
       text-align: center;
@@ -86,12 +93,6 @@ section {
       margin-top: 3rem;
     }
 }
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
-}
 
 section.resume-section {
   padding-top: 5rem !important;
@@ -118,6 +119,7 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
+
 
 .bg-primary {
   background-image: linear-gradient(#607D8B, #ff9971) !important;
